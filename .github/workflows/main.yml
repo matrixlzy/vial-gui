@@ -19,7 +19,7 @@ jobs:
   build-mac:
     runs-on: macos-15
     env:
-      PYTHON_VERSION: 3.6.8
+      PYTHON_VERSION: 3.6.15
       MACOSX_DEPLOYMENT_TARGET: 10.9
 
     steps:
