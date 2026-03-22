@@ -1,5 +1,7 @@
 name: CI
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 on: [push, pull_request]
 jobs:
   build-linux:
@@ -19,7 +21,6 @@ jobs:
   build-mac:
     runs-on: macos-15
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHON_VERSION: 3.6.8
       MACOSX_DEPLOYMENT_TARGET: 10.9
 
