@@ -122,10 +122,10 @@ class LayersUI(QWidget):
         for w in self.layer_chks:
             w.stateChanged.connect(self.on_change)
         btn_all_layers = QToolButton()
-        btn_all_layers.setText(tr("KeyOverride", "Enable all"))
+        btn_all_layers.setText(tr("KeyOverride", "全部启用"))
         btn_all_layers.setToolButtonStyle(Qt.ToolButtonTextOnly)
         btn_no_layers = QToolButton()
-        btn_no_layers.setText(tr("KeyOverride", "Disable all"))
+        btn_no_layers.setText(tr("KeyOverride", "全部禁用"))
         btn_no_layers.setToolButtonStyle(Qt.ToolButtonTextOnly)
         btn_all_layers.clicked.connect(self.on_enable_all_layers)
         btn_no_layers.clicked.connect(self.on_disable_all_layers)
