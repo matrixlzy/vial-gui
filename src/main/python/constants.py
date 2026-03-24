@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 
-KEY_SIZE_RATIO = 3.2
+KEY_SIZE_RATIO = 6
 KEY_SPACING_RATIO = 0.2
 KEY_ROUNDNESS = 0.08
 
