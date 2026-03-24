@@ -66,11 +66,11 @@ class AboutKeyboard(QDialog):
 
         text = ""
         desc = device.desc
-        text += "Manufacturer: {}\n".format(desc["manufacturer_string"])
-        text += "Product: {}\n".format(desc["product_string"])
+        text += "制造商: {}\n".format(desc["manufacturer_string"])
+        text += "产品: {}\n".format(desc["product_string"])
         text += "VID: {:04X}\n".format(desc["vendor_id"])
         text += "PID: {:04X}\n".format(desc["product_id"])
-        text += "Device: {}\n".format(desc["path"])
+        text += "设备: {}\n".format(desc["path"])
         text += "\n"
 
         if self.keyboard.sideload:
@@ -78,9 +78,9 @@ class AboutKeyboard(QDialog):
         elif self.keyboard.vial_protocol < 0:
             text += "VIA keyboard, Vial functionality is disabled\n\n"
 
-        text += "VIA protocol: {}\n".format(self.keyboard.via_protocol)
-        text += "Vial protocol: {}\n".format(self.keyboard.vial_protocol)
-        text += "Vial keyboard ID: {:08X}\n".format(self.keyboard.keyboard_id)
+        text += "VIA 协议: {}\n".format(self.keyboard.via_protocol)
+        text += "Vial 协议: {}\n".format(self.keyboard.vial_protocol)
+        text += "Vial 键盘ID: {:08X}\n".format(self.keyboard.keyboard_id)
         text += "\n"
 
         text += "Macro entries: {}\n".format(self.keyboard.macro_count)
@@ -94,7 +94,7 @@ class AboutKeyboard(QDialog):
         text += "Key Override entries: {}\n".format(self.about_key_override())
         text += "Alt Repeat Key entries: {}\n".format(self.about_alt_repeat_key())
         text += "Caps Word: {}\n".format(self.about_feature("caps_word"))
-        text += "Layer Lock: {}\n".format(self.about_feature("layer_lock"))
+        text += "层锁: {}\n".format(self.about_feature("layer_lock"))
         text += "\n"
 
         text += "QMK Settings: {}\n".format(self.about_qmk_settings())
