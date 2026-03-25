@@ -68,32 +68,32 @@ class AboutKeyboard(QDialog):
         desc = device.desc
         text += "制造商: {}\n".format(desc["manufacturer_string"])
         text += "产品: {}\n".format(desc["product_string"])
-        text += "VID: {:04X}\n".format(desc["vendor_id"])
-        text += "PID: {:04X}\n".format(desc["product_id"])
+        text += "厂商VID: {:04X}\n".format(desc["vendor_id"])
+        text += "产品PID: {:04X}\n".format(desc["product_id"])
         text += "设备: {}\n".format(desc["path"])
         text += "\n"
 
         if self.keyboard.sideload:
-            text += "Sideloaded JSON, Vial functionality is disabled\n\n"
+            text += "使用旁加载的JSON配置，部分功能受限\n\n"
         elif self.keyboard.vial_protocol < 0:
-            text += "VIA keyboard, Vial functionality is disabled\n\n"
+            text += "仅支持VIA协议，不支持Vial高级功能\n\n"
 
         text += "VIA 协议: {}\n".format(self.keyboard.via_protocol)
         text += "Vial 协议: {}\n".format(self.keyboard.vial_protocol)
         text += "Vial 键盘ID: {:08X}\n".format(self.keyboard.keyboard_id)
         text += "\n"
 
-        text += "Macro entries: {}\n".format(self.keyboard.macro_count)
-        text += "Macro memory: {} bytes\n".format(self.keyboard.macro_memory)
-        text += "Macro delays: {}\n".format(self.about_macro_delays())
-        text += "Complex (2-byte) macro keycodes: {}\n".format(self.about_macro_ext_keycodes())
+        text += "宏条目数: {}\n".format(self.keyboard.macro_count)
+        text += "宏存储: {} bytes\n".format(self.keyboard.macro_memory)
+        text += "宏延迟: {}\n".format(self.about_macro_delays())
+        text += "(2-byte) 复杂宏键码: {}\n".format(self.about_macro_ext_keycodes())
         text += "\n"
 
-        text += "Tap Dance entries: {}\n".format(self.about_tap_dance())
-        text += "Combo entries: {}\n".format(self.about_combo())
-        text += "Key Override entries: {}\n".format(self.about_key_override())
-        text += "Alt Repeat Key entries: {}\n".format(self.about_alt_repeat_key())
-        text += "Caps Word: {}\n".format(self.about_feature("caps_word"))
+        text += "多方式触发: {}\n".format(self.about_tap_dance())
+        text += "组合键触发: {}\n".format(self.about_combo())
+        text += "按键覆盖/替换: {}\n".format(self.about_key_override())
+        text += "Alt替代重复键: {}\n".format(self.about_alt_repeat_key())
+        text += "智能大写锁定: {}\n".format(self.about_feature("caps_word"))
         text += "层锁: {}\n".format(self.about_feature("layer_lock"))
         text += "\n"
 
