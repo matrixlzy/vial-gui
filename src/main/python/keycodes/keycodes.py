@@ -869,7 +869,7 @@ def recreate_keyboard_keycodes(keyboard):
 
     KEYCODES_LAYERS.clear()
     KEYCODES_LAYERS.append(Keycode("QK_LAYER_LOCK", "Layer\nLock",
-            "Locks the current layer", alias=["QK_LLCK"], requires_feature="layer_lock"))
+            "锁定当前层", alias=["QK_LLCK"], requires_feature="layer_lock"))
 
     if layers >= 4:
         KEYCODES_LAYERS.append(Keycode("FN_MO13", "Fn1\n(Fn3)"))
@@ -877,26 +877,26 @@ def recreate_keyboard_keycodes(keyboard):
 
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("MO",
-                                   "Momentarily turn on layer when pressed (requires KC_TRNS on destination layer)"))
+                                   "按下时临时切换到该层（需要目标层对应位置设置为 KC_TRNS）"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("DF",
-                                   "Set the base (default) layer"))
+                                   "设置基础（默认）图层"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("PDF",
-                                   "Persistently set the base (default) layer",
+                                   "持久化设置基础（默认）图层",
                                    requires_feature="persistent_default_layer"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("TG",
-                                   "Toggle layer on or off"))
+                                   "切换图层的开启或关闭状态"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("TT",
-                                   "Normally acts like MO unless it's tapped multiple times, which toggles layer on"))
+                                   "通常表现为 MO（按住生效），除非快速多次点击，此时会开启图层"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("OSL",
-                                   "Momentarily activates layer until a key is pressed"))
+                                   "临时激活图层，直到按下任意键为止"))
     KEYCODES_LAYERS.extend(
         generate_keycodes_for_mask("TO",
-                                   "Turns on layer and turns off all other layers, except the default layer"))
+                                   "开启该图层，并关闭所有其他图层（基础层除外）"))
 
     for x in range(min(layers, 16)):
         KEYCODES_LAYERS.append(Keycode("LT{}(kc)".format(x), "LT {}\n(kc)".format(x),
