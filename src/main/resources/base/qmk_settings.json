@@ -8,8 +8,8 @@
                 { "type": "boolean", "title": "交换左 Alt 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 2 },
                 { "type": "boolean", "title": "交换右 Alt 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 3 },
                 { "type": "boolean", "title": "禁用 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 4 },
-                { "type": "boolean", "title": "交换 ` (反引号) 和 Escape 键", "qsid": 21, "width": 4, "bit": 5 },
-                { "type": "boolean", "title": "交换 \\ (反斜杠) 和 Backspace (退格) 键", "qsid": 21, "width": 4, "bit": 6 },
+                { "type": "boolean", "title": "交换 (反引号) 和 Escape 键", "qsid": 21, "width": 4, "bit": 5 },
+                { "type": "boolean", "title": "交换 (反斜杠) 和 Backspace (退格) 键", "qsid": 21, "width": 4, "bit": 6 },
                 { "type": "boolean", "title": "启用全键无冲 (NKRO)", "qsid": 21, "width": 4, "bit": 7 },
                 { "type": "boolean", "title": "交换左 Control 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 8 },
                 { "type": "boolean", "title": "交换右 Control 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 9 }
