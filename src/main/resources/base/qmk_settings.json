@@ -3,88 +3,88 @@
         {
             "name": "Magic",
             "fields": [
-                { "type": "boolean", "title": "äº¤æ¢Caps Lockå’ŒLControl", "qsid": 21, "width": 4, "bit": 0 },
-                { "type": "boolean", "title": "å°†Caps Lockè§†ä¸ºControl", "qsid": 21, "width": 4, "bit": 1 },
-                { "type": "boolean", "title": "äº¤æ¢LAltå’ŒGUI", "qsid": 21, "width": 4, "bit": 2 },
-                { "type": "boolean", "title": "äº¤æ¢RAltå’ŒGUI", "qsid": 21, "width": 4, "bit": 3 },
-                { "type": "boolean", "title": "ç¦ç”¨GUI keys", "qsid": 21, "width": 4, "bit": 4 },
-                { "type": "boolean", "title": "äº¤æ¢ ` å’Œ Escape", "qsid": 21, "width": 4, "bit": 5 },
-                { "type": "boolean", "title": "äº¤æ¢ \\ å’Œ Backspace", "qsid": 21, "width": 4, "bit": 6 },
-                { "type": "boolean", "title": "å¯ç”¨N-keyå…¨é”®æ— å†²", "qsid": 21, "width": 4, "bit": 7 },
-                { "type": "boolean", "title": "äº¤æ¢LControlå’ŒGUI", "qsid": 21, "width": 4, "bit": 8 },
-                { "type": "boolean", "title": "äº¤æ¢RControlå’ŒGUI", "qsid": 21, "width": 4, "bit": 9 }
+                { "type": "boolean", "title": "½»»»Caps LockºÍ×ó Control ¼ü", "qsid": 21, "width": 4, "bit": 0 },
+                { "type": "boolean", "title": "½« Caps Lock ÊÓÎª Control ¼ü", "qsid": 21, "width": 4, "bit": 1 },
+                { "type": "boolean", "title": "½»»»×ó Alt ºÍ GUI (Win»òCmd) ¼ü", "qsid": 21, "width": 4, "bit": 2 },
+                { "type": "boolean", "title": "½»»»ÓÒ Alt ºÍ GUI (Win»òCmd) ¼ü", "qsid": 21, "width": 4, "bit": 3 },
+                { "type": "boolean", "title": "½ûÓÃ GUI (Win»òCmd) ¼ü", "qsid": 21, "width": 4, "bit": 4 },
+                { "type": "boolean", "title": "½»»» (·´ÒıºÅ) ºÍ Escape ¼ü", "qsid": 21, "width": 4, "bit": 5 },
+                { "type": "boolean", "title": "½»»» (·´Ğ±¸Ü) ºÍ Backspace (ÍË¸ñ) ¼ü", "qsid": 21, "width": 4, "bit": 6 },
+                { "type": "boolean", "title": "ÆôÓÃÈ«¼üÎŞ³å (NKRO)", "qsid": 21, "width": 4, "bit": 7 },
+                { "type": "boolean", "title": "½»»»×ó Control ºÍ GUI (Win»òCmd) ¼ü", "qsid": 21, "width": 4, "bit": 8 },
+                { "type": "boolean", "title": "½»»»ÓÒ Control ºÍ GUI (Win»òCmd) ¼ü", "qsid": 21, "width": 4, "bit": 9 }
             ]
         },
         {
             "name": "Grave Escape",
             "fields": [
-                { "type": "boolean", "title": "Always send Escape if Alt is pressed", "qsid": 1, "bit": 0 },
-                { "type": "boolean", "title": "Always send Escape if Control is pressed", "qsid": 1, "bit": 1 },
-                { "type": "boolean", "title": "Always send Escape if GUI is pressed", "qsid": 1, "bit": 2 },
-                { "type": "boolean", "title": "Always send Escape if Shift is pressed", "qsid": 1, "bit": 3 }
+                { "type": "boolean", "title": "°´ÏÂ Alt ¼üÊ±Ê¼ÖÕ·¢ËÍ Escape", "qsid": 1, "bit": 0 },
+                { "type": "boolean", "title": "°´ÏÂ Control ¼üÊ±Ê¼ÖÕ·¢ËÍ Escape", "qsid": 1, "bit": 1 },
+                { "type": "boolean", "title": "°´ÏÂ GUI (Win»òCmd) ¼üÊ±Ê¼ÖÕ·¢ËÍ Escape", "qsid": 1, "bit": 2 },
+                { "type": "boolean", "title": "°´ÏÂ Shift ¼üÊ±Ê¼ÖÕ·¢ËÍ Escape", "qsid": 1, "bit": 3 }
             ]
         },
         {
             "name": "Tap-Hold",
             "fields": [
-                { "type": "integer", "title": "Tapping Term", "qsid": 7, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "µã°´ÅĞ¶¨Ê±¼ä", "qsid": 7, "min": 0, "max": 10000, "width": 2 },
 
-                { "type": "boolean", "title": "Permissive Hold", "qsid": 8, "bit": 0 },
-                { "type": "boolean", "title": "Ignore Mod Tap Interrupt", "qsid": 8, "bit": 1 },
-                { "type": "boolean", "title": "Tapping Force Hold", "qsid": 8, "bit": 2 },
-                { "type": "boolean", "title": "Retro Tapping", "qsid": 8, "bit": 3 },
+                { "type": "boolean", "title": "¿íÈİ°´×¡Ä£Ê½", "qsid": 8, "bit": 0 },
+                { "type": "boolean", "title": "ºöÂÔĞŞÊÎ¼üÖĞ¶Ï", "qsid": 8, "bit": 1 },
+                { "type": "boolean", "title": "Ç¿ÖÆ°´×¡Ä£Ê½", "qsid": 8, "bit": 2 },
+                { "type": "boolean", "title": "»ØËİµã°´", "qsid": 8, "bit": 3 },
 
-                { "type": "boolean", "title": "Permissive Hold", "qsid": 22 },
-                { "type": "boolean", "title": "Hold On Other Key Press", "qsid": 23 },
-                { "type": "boolean", "title": "Retro Tapping", "qsid": 24 },
-                { "type": "integer", "title": "Quick Tap Term", "qsid": 25, "min": 0, "max": 10000, "width": 2 },
+                { "type": "boolean", "title": "¿íÈİ°´×¡Ä£Ê½", "qsid": 22 },
+                { "type": "boolean", "title": "°´ÏÂÆäËû¼üÊ±±£³Ö°´×¡", "qsid": 23 },
+                { "type": "boolean", "title": "»ØËİµã°´", "qsid": 24 },
+                { "type": "integer", "title": "¿ìËÙµã°´ÅĞ¶¨Ê±¼ä", "qsid": 25, "min": 0, "max": 10000, "width": 2 },
 
-                { "type": "integer", "title": "Tap Code Delay", "qsid": 18, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Tap Hold Caps Delay", "qsid": 19, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Tapping Toggle", "qsid": 20, "min": 0, "max": 100, "width": 1 },
+                { "type": "integer", "title": "µã°´´úÂëÑÓ³Ù", "qsid": 18, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "´óĞ´Ëø¶¨µã°´-°´×¡ÑÓ³Ù", "qsid": 19, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "µã°´ÇĞ»»", "qsid": 20, "min": 0, "max": 100, "width": 1 },
 
-                { "type": "boolean", "title": "Chordal Hold", "qsid": 26 },
-                { "type": "integer", "title": "Flow Tap", "qsid": 27, "min": 0, "max": 10000, "width": 2 }
+                { "type": "boolean", "title": "ºÍÏÒ°´×¡", "qsid": 26 },
+                { "type": "integer", "title": "Á÷Ê½µã°´", "qsid": 27, "min": 0, "max": 10000, "width": 2 }
             ]
         },
         {
             "name": "Auto Shift",
             "fields": [
-                { "type": "boolean", "title": "Enable", "qsid": 3, "bit": 0 },
-                { "type": "boolean", "title": "Enable for modifiers", "qsid": 3, "bit": 1 },
-                { "type": "integer", "title": "Timeout", "qsid": 4, "min": 0, "max": 1000, "width": 2 },
-                { "type": "boolean", "title": "Do not Auto Shift special keys", "qsid": 3, "bit": 2 },
-                { "type": "boolean", "title": "Do not Auto Shift numeric keys", "qsid": 3, "bit": 3 },
-                { "type": "boolean", "title": "Do not Auto Shift alpha characters", "qsid": 3, "bit": 4 },
-                { "type": "boolean", "title": "Enable keyrepeat", "qsid": 3, "bit": 5 },
-                { "type": "boolean", "title": "Disable keyrepeat when timeout is exceeded", "qsid": 3, "bit": 6 }
+                { "type": "boolean", "title": "Æô¶¯", "qsid": 3, "bit": 0 },
+                { "type": "boolean", "title": "¶ÔĞŞÊÎ¼üÆôÓÃ", "qsid": 3, "bit": 1 },
+                { "type": "integer", "title": "³¬Ê±Ê±¼ä", "qsid": 4, "min": 0, "max": 1000, "width": 2 },
+                { "type": "boolean", "title": "²»×Ô¶¯ÉÏµµÌØÊâ¼ü", "qsid": 3, "bit": 2 },
+                { "type": "boolean", "title": "²»×Ô¶¯ÉÏµµÊı×Ö¼ü", "qsid": 3, "bit": 3 },
+                { "type": "boolean", "title": "²»×Ô¶¯ÉÏµµ×ÖÄ¸×Ö·û", "qsid": 3, "bit": 4 },
+                { "type": "boolean", "title": "ÆôÓÃ°´¼üÁ¬·¢", "qsid": 3, "bit": 5 },
+                { "type": "boolean", "title": "³¬Ê±ºó½ûÓÃ°´¼üÁ¬·¢", "qsid": 3, "bit": 6 }
             ]
         },
         {
             "name": "Combo",
             "fields": [
-                { "type": "integer", "title": "Time out period for combos", "qsid": 2, "min": 0, "max": 10000, "width": 2 }
+                { "type": "integer", "title": "×éºÏ¼ü³¬Ê±ÖÜÆÚ", "qsid": 2, "min": 0, "max": 10000, "width": 2 }
             ]
         },
         {
             "name": "One Shot Keys",
             "fields": [
-                { "type": "integer", "title": "Tapping this number of times holds the key until tapped once again", "qsid": 5, "min": 0, "max": 50, "width": 1 },
-                { "type": "integer", "title": "Time (in ms) before the one shot key is released", "qsid": 6, "min": 0, "max": 60000, "width": 2 }
+                { "type": "integer", "title": "µã°´´Ë´ÎÊıºóËø¶¨°´¼ü,Ö±µ½ÔÙ´Îµã°´²Å½â³ı", "qsid": 5, "min": 0, "max": 50, "width": 1 },
+                { "type": "integer", "title": "µ¥´Î°´¼ü×Ô¶¯ÊÍ·ÅÇ°µÄ³ÖĞøÊ±¼ä(ºÁÃë)", "qsid": 6, "min": 0, "max": 60000, "width": 2 }
             ]
         },
         {
             "name": "Mouse keys",
             "fields": [
-                { "type": "integer", "title": "Delay between pressing a movement key and cursor movement", "qsid": 9, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Time between cursor movements in milliseconds", "qsid": 10, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Step size", "qsid": 11, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Maximum cursor speed at which acceleration stops", "qsid": 12, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Time until maximum cursor speed is reached", "qsid": 13, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Delay between pressing a wheel key and wheel movement", "qsid": 14, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Time between wheel movements", "qsid": 15, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Maximum number of scroll steps per scroll action", "qsid": 16, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Time until maximum scroll speed is reached", "qsid": 17, "min": 0, "max": 1000, "width": 2 }
+                { "type": "integer", "title": "°´ÏÂÒÆ¶¯¼üÓë¹â±ê¿ªÊ¼ÒÆ¶¯Ö®¼äµÄÑÓ³Ù", "qsid": 9, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "¹â±êÒÆ¶¯¼ä¸ô(ºÁÃë)", "qsid": 10, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "²½½ø´óĞ¡", "qsid": 11, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "¹â±ê¼ÓËÙÍ£Ö¹Ê±µÄ×î´óËÙ¶È", "qsid": 12, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "´ïµ½×î´ó¹â±êËÙ¶ÈËùĞèµÄÊ±¼ä", "qsid": 13, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "°´ÏÂ¹öÂÖ¼üÓë¹öÂÖ¿ªÊ¼ÒÆ¶¯Ö®¼äµÄÑÓ³Ù", "qsid": 14, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "¹öÂÖÒÆ¶¯¼ä¸ôÊ±¼ä", "qsid": 15, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "Ã¿´Î¹ö¶¯¶¯×÷µÄ×î´ó¹ö¶¯²½Êı", "qsid": 16, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "´ïµ½×î´ó¹ö¶¯ËÙ¶ÈËùĞèµÄÊ±¼ä", "qsid": 17, "min": 0, "max": 1000, "width": 2 }
             ]
         }
     ]
