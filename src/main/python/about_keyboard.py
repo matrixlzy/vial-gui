@@ -62,7 +62,7 @@ class AboutKeyboard(QDialog):
         super().__init__()
 
         self.keyboard = device.keyboard
-        self.setWindowTitle("About {}".format(device.title()))
+        self.setWindowTitle("关于 {}".format(device.title()))
 
         text = ""
         desc = device.desc
@@ -97,7 +97,7 @@ class AboutKeyboard(QDialog):
         text += "层锁: {}\n".format(self.about_feature("layer_lock"))
         text += "\n"
 
-        text += "QMK Settings: {}\n".format(self.about_qmk_settings())
+        text += "QMK设置: {}\n".format(self.about_qmk_settings())
 
         font = QFont("monospace")
         font.setStyleHint(QFont.TypeWriter)
