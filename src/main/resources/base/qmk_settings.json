@@ -1,90 +1,90 @@
 {
     "tabs": [
         {
-            "name": "Magic",
+            "name": "Magic(魔法键)",
             "fields": [
-                { "type": "boolean", "title": "Swap Caps Lock and Left Control", "qsid": 21, "width": 4, "bit": 0 },
-                { "type": "boolean", "title": "Treat Caps Lock as Control", "qsid": 21, "width": 4, "bit": 1 },
-                { "type": "boolean", "title": "Swap Left Alt and GUI", "qsid": 21, "width": 4, "bit": 2 },
-                { "type": "boolean", "title": "Swap Right Alt and GUI", "qsid": 21, "width": 4, "bit": 3 },
-                { "type": "boolean", "title": "Disable the GUI keys", "qsid": 21, "width": 4, "bit": 4 },
-                { "type": "boolean", "title": "Swap ` and Escape", "qsid": 21, "width": 4, "bit": 5 },
-                { "type": "boolean", "title": "Swap \\ and Backspace", "qsid": 21, "width": 4, "bit": 6 },
-                { "type": "boolean", "title": "Enable N-key rollover", "qsid": 21, "width": 4, "bit": 7 },
-                { "type": "boolean", "title": "Swap Left Control and GUI", "qsid": 21, "width": 4, "bit": 8 },
-                { "type": "boolean", "title": "Swap Right Control and GUI", "qsid": 21, "width": 4, "bit": 9 }
+                { "type": "boolean", "title": "交换 Caps Lock 和左 Control 键", "qsid": 21, "width": 4, "bit": 0 },
+                { "type": "boolean", "title": "将 Caps Lock 视为 Control 键", "qsid": 21, "width": 4, "bit": 1 },
+                { "type": "boolean", "title": "交换左 Alt 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 2 },
+                { "type": "boolean", "title": "交换右 Alt 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 3 },
+                { "type": "boolean", "title": "禁用 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 4 },
+                { "type": "boolean", "title": "交换 ` (反引号) 和 Escape 键", "qsid": 21, "width": 4, "bit": 5 },
+                { "type": "boolean", "title": "交换 \\ (反斜杠) 和 Backspace (退格) 键", "qsid": 21, "width": 4, "bit": 6 },
+                { "type": "boolean", "title": "启用全键无冲 (NKRO)", "qsid": 21, "width": 4, "bit": 7 },
+                { "type": "boolean", "title": "交换左 Control 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 8 },
+                { "type": "boolean", "title": "交换右 Control 和 GUI (Win/Cmd) 键", "qsid": 21, "width": 4, "bit": 9 }
             ]
         },
         {
-            "name": "Grave Escape",
+            "name": "Grave Escape(智能ESC)",
             "fields": [
-                { "type": "boolean", "title": "Always send Escape if Alt is pressed", "qsid": 1, "bit": 0 },
-                { "type": "boolean", "title": "Always send Escape if Control is pressed", "qsid": 1, "bit": 1 },
-                { "type": "boolean", "title": "Always send Escape if GUI is pressed", "qsid": 1, "bit": 2 },
-                { "type": "boolean", "title": "Always send Escape if Shift is pressed", "qsid": 1, "bit": 3 }
+                { "type": "boolean", "title": "按下 Alt 键时始终发送 Escape", "qsid": 1, "bit": 0 },
+                { "type": "boolean", "title": "按下 Control 键时始终发送 Escape", "qsid": 1, "bit": 1 },
+                { "type": "boolean", "title": "按下 GUI (Win/Cmd) 键时始终发送 Escape", "qsid": 1, "bit": 2 },
+                { "type": "boolean", "title": "按下 Shift 键时始终发送 Escape", "qsid": 1, "bit": 3 }
             ]
         },
         {
-            "name": "Tap-Hold",
+            "name": "Tap-Hold(多功能按键)",
             "fields": [
-                { "type": "integer", "title": "Tapping Term", "qsid": 7, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "点按判定时间", "qsid": 7, "min": 0, "max": 10000, "width": 2 },
 
-                { "type": "boolean", "title": "Permissive Hold", "qsid": 8, "bit": 0 },
-                { "type": "boolean", "title": "Ignore Mod Tap Interrupt", "qsid": 8, "bit": 1 },
-                { "type": "boolean", "title": "Tapping Force Hold", "qsid": 8, "bit": 2 },
-                { "type": "boolean", "title": "Retro Tapping", "qsid": 8, "bit": 3 },
+                { "type": "boolean", "title": "宽容按住模式", "qsid": 8, "bit": 0 },
+                { "type": "boolean", "title": "忽略修饰键中断", "qsid": 8, "bit": 1 },
+                { "type": "boolean", "title": "强制按住模式", "qsid": 8, "bit": 2 },
+                { "type": "boolean", "title": "回溯点按", "qsid": 8, "bit": 3 },
 
-                { "type": "boolean", "title": "Permissive Hold", "qsid": 22 },
-                { "type": "boolean", "title": "Hold On Other Key Press", "qsid": 23 },
-                { "type": "boolean", "title": "Retro Tapping", "qsid": 24 },
-                { "type": "integer", "title": "Quick Tap Term", "qsid": 25, "min": 0, "max": 10000, "width": 2 },
+                { "type": "boolean", "title": "宽容按住模式", "qsid": 22 },
+                { "type": "boolean", "title": "按下其他键时保持按住", "qsid": 23 },
+                { "type": "boolean", "title": "回溯点按", "qsid": 24 },
+                { "type": "integer", "title": "快速点按判定时间", "qsid": 25, "min": 0, "max": 10000, "width": 2 },
 
-                { "type": "integer", "title": "Tap Code Delay", "qsid": 18, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Tap Hold Caps Delay", "qsid": 19, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Tapping Toggle", "qsid": 20, "min": 0, "max": 100, "width": 1 },
+                { "type": "integer", "title": "点按代码延迟", "qsid": 18, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "大写锁定点按-按住延迟", "qsid": 19, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "点按切换", "qsid": 20, "min": 0, "max": 100, "width": 1 },
 
-                { "type": "boolean", "title": "Chordal Hold", "qsid": 26 },
-                { "type": "integer", "title": "Flow Tap", "qsid": 27, "min": 0, "max": 10000, "width": 2 }
+                { "type": "boolean", "title": "和弦按住", "qsid": 26 },
+                { "type": "integer", "title": "流式点按", "qsid": 27, "min": 0, "max": 10000, "width": 2 }
             ]
         },
         {
-            "name": "Auto Shift",
+            "name": "Auto Shift(自动上档键)",
             "fields": [
-                { "type": "boolean", "title": "Enable", "qsid": 3, "bit": 0 },
-                { "type": "boolean", "title": "Enable for modifiers", "qsid": 3, "bit": 1 },
-                { "type": "integer", "title": "Timeout", "qsid": 4, "min": 0, "max": 1000, "width": 2 },
-                { "type": "boolean", "title": "Do not Auto Shift special keys", "qsid": 3, "bit": 2 },
-                { "type": "boolean", "title": "Do not Auto Shift numeric keys", "qsid": 3, "bit": 3 },
-                { "type": "boolean", "title": "Do not Auto Shift alpha characters", "qsid": 3, "bit": 4 },
-                { "type": "boolean", "title": "Enable keyrepeat", "qsid": 3, "bit": 5 },
-                { "type": "boolean", "title": "Disable keyrepeat when timeout is exceeded", "qsid": 3, "bit": 6 }
+                { "type": "boolean", "title": "启动", "qsid": 3, "bit": 0 },
+                { "type": "boolean", "title": "对修饰键启用", "qsid": 3, "bit": 1 },
+                { "type": "integer", "title": "超时时间", "qsid": 4, "min": 0, "max": 1000, "width": 2 },
+                { "type": "boolean", "title": "不自动上档特殊键", "qsid": 3, "bit": 2 },
+                { "type": "boolean", "title": "不自动上档数字键", "qsid": 3, "bit": 3 },
+                { "type": "boolean", "title": "不自动上档字母字符", "qsid": 3, "bit": 4 },
+                { "type": "boolean", "title": "启用按键连发", "qsid": 3, "bit": 5 },
+                { "type": "boolean", "title": "超时后禁用按键连发", "qsid": 3, "bit": 6 }
             ]
         },
         {
-            "name": "Combo",
+            "name": "Combo组合",
             "fields": [
-                { "type": "integer", "title": "Time out period for combos", "qsid": 2, "min": 0, "max": 10000, "width": 2 }
+                { "type": "integer", "title": "组合键超时周期", "qsid": 2, "min": 0, "max": 10000, "width": 2 }
             ]
         },
         {
-            "name": "One Shot Keys",
+            "name": "One Shot Keys(单次模式)",
             "fields": [
-                { "type": "integer", "title": "Tapping this number of times holds the key until tapped once again", "qsid": 5, "min": 0, "max": 50, "width": 1 },
-                { "type": "integer", "title": "Time (in ms) before the one shot key is released", "qsid": 6, "min": 0, "max": 60000, "width": 2 }
+                { "type": "integer", "title": "点按此次数后锁定按键，直到再次点按才解除", "qsid": 5, "min": 0, "max": 50, "width": 1 },
+                { "type": "integer", "title": "单次按键自动释放前的持续时间（毫秒）", "qsid": 6, "min": 0, "max": 60000, "width": 2 }
             ]
         },
         {
-            "name": "Mouse keys",
+            "name": "Mouse keys鼠标",
             "fields": [
-                { "type": "integer", "title": "Delay between pressing a movement key and cursor movement", "qsid": 9, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Time between cursor movements in milliseconds", "qsid": 10, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Step size", "qsid": 11, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Maximum cursor speed at which acceleration stops", "qsid": 12, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Time until maximum cursor speed is reached", "qsid": 13, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Delay between pressing a wheel key and wheel movement", "qsid": 14, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Time between wheel movements", "qsid": 15, "min": 0, "max": 10000, "width": 2 },
-                { "type": "integer", "title": "Maximum number of scroll steps per scroll action", "qsid": 16, "min": 0, "max": 1000, "width": 2 },
-                { "type": "integer", "title": "Time until maximum scroll speed is reached", "qsid": 17, "min": 0, "max": 1000, "width": 2 }
+                { "type": "integer", "title": "按下移动键与光标开始移动之间的延迟", "qsid": 9, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "光标移动间隔（毫秒）", "qsid": 10, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "步进大小", "qsid": 11, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "光标加速停止时的最大速度", "qsid": 12, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "达到最大光标速度所需的时间", "qsid": 13, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "按下滚轮键与滚轮开始移动之间的延迟", "qsid": 14, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "滚轮移动间隔时间", "qsid": 15, "min": 0, "max": 10000, "width": 2 },
+                { "type": "integer", "title": "每次滚动动作的最大滚动步数", "qsid": 16, "min": 0, "max": 1000, "width": 2 },
+                { "type": "integer", "title": "达到最大滚动速度所需的时间", "qsid": 17, "min": 0, "max": 1000, "width": 2 }
             ]
         }
     ]
