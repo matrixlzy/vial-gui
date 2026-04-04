@@ -86,11 +86,11 @@ class MainWindow(QMainWindow):
         self.matrix_tester = MatrixTest(self.layout_editor)
         self.rgb_configurator = RGBConfigurator()
 
-        self.editors = [(self.keymap_editor, "Keymap"), (self.layout_editor, "Layout"), (self.macro_recorder, "Macros"),
-                        (self.rgb_configurator, "Lighting"), (self.tap_dance, "Tap Dance"), (self.combos, "Combos"),
-                        (self.key_override, "Key Overrides"), (self.alt_repeat_key, "Alt Repeat Key"),
-                        (self.qmk_settings, "QMK Settings"), (self.matrix_tester, "Matrix tester"),
-                        (self.firmware_flasher, "Firmware updater")]
+        self.editors = [(self.keymap_editor, "Keymap(键映射)"), (self.layout_editor, "Layout(层)"), (self.macro_recorder, "Macros(宏)"),
+                        (self.rgb_configurator, "Lighting(灯光)"), (self.tap_dance, "Tap Dance(高级)"), (self.combos, "Combos(组合)"),
+                        (self.key_override, "Key Overrides(覆盖)"), (self.alt_repeat_key, "Alt Repeat Key(重复)"),
+                        (self.qmk_settings, "QMK Settings(QMK设置)"), (self.matrix_tester, "Matrix tester(测试)"),
+                        (self.firmware_flasher, "Firmware updater(固件升级)")]
 
         Unlocker.global_layout_editor = self.layout_editor
         Unlocker.global_main_window = self
