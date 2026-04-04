@@ -3,16 +3,16 @@
         {
             "name": "Magic",
             "fields": [
-                { "type": "boolean", "title": "交换Caps Lock和LControl", "qsid": 21, "width": 4, "bit": 0 },
-                { "type": "boolean", "title": "将Caps Lock视为Control", "qsid": 21, "width": 4, "bit": 1 },
-                { "type": "boolean", "title": "交换LAlt和GUI", "qsid": 21, "width": 4, "bit": 2 },
-                { "type": "boolean", "title": "交换RAlt和GUI", "qsid": 21, "width": 4, "bit": 3 },
-                { "type": "boolean", "title": "禁用GUI keys", "qsid": 21, "width": 4, "bit": 4 },
-                { "type": "boolean", "title": "交换 ` 和 Escape", "qsid": 21, "width": 4, "bit": 5 },
-                { "type": "boolean", "title": "交换 \\ 和 Backspace", "qsid": 21, "width": 4, "bit": 6 },
-                { "type": "boolean", "title": "启用N-key全键无冲", "qsid": 21, "width": 4, "bit": 7 },
-                { "type": "boolean", "title": "交换LControl和GUI", "qsid": 21, "width": 4, "bit": 8 },
-                { "type": "boolean", "title": "交换RControl和GUI", "qsid": 21, "width": 4, "bit": 9 }
+                { "type": "boolean", "title": "Swap Caps Lock and Left Control", "qsid": 21, "width": 4, "bit": 0 },
+                { "type": "boolean", "title": "Treat Caps Lock as Control", "qsid": 21, "width": 4, "bit": 1 },
+                { "type": "boolean", "title": "Swap Left Alt and GUI", "qsid": 21, "width": 4, "bit": 2 },
+                { "type": "boolean", "title": "Swap Right Alt and GUI", "qsid": 21, "width": 4, "bit": 3 },
+                { "type": "boolean", "title": "Disable the GUI keys", "qsid": 21, "width": 4, "bit": 4 },
+                { "type": "boolean", "title": "Swap ` and Escape", "qsid": 21, "width": 4, "bit": 5 },
+                { "type": "boolean", "title": "Swap \\ and Backspace", "qsid": 21, "width": 4, "bit": 6 },
+                { "type": "boolean", "title": "Enable N-key rollover", "qsid": 21, "width": 4, "bit": 7 },
+                { "type": "boolean", "title": "Swap Left Control and GUI", "qsid": 21, "width": 4, "bit": 8 },
+                { "type": "boolean", "title": "Swap Right Control and GUI", "qsid": 21, "width": 4, "bit": 9 }
             ]
         },
         {
