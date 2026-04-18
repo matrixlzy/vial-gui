@@ -180,7 +180,7 @@ class FilteredTabbedKeycodes(QTabWidget):
             SimpleTab(self, "Backlight(背光/RGB灯)", KEYCODES_BACKLIGHT),
             SimpleTab(self, "App, Media and Mouse(应用,媒体,鼠标)", KEYCODES_MEDIA),
             SimpleTab(self, "MIDI(迷笛)", KEYCODES_MIDI),
-            SimpleTab(self, "Tap Dance(高级)", KEYCODES_TAP_DANCE),
+            SimpleTab(self, "Tap Dance(指尖舞蹈)", KEYCODES_TAP_DANCE),
             SimpleTab(self, "User(自定义)", KEYCODES_USER),
             SimpleTab(self, "Macro(宏)", KEYCODES_MACRO),
         ]
