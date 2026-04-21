@@ -328,7 +328,7 @@ class MainWindow(QMainWindow):
 
         self.about_keyboard_act.setVisible(False)
         if isinstance(self.autorefresh.current_device, VialKeyboard):
-            self.about_keyboard_act.setText("About {}...".format(self.autorefresh.current_device.title()))
+            self.about_keyboard_act.setText("关于 {}...".format(self.autorefresh.current_device.title()))
             self.about_keyboard_act.setVisible(True)
 
         # if unlock process was interrupted, we must finish it first
@@ -438,10 +438,10 @@ class MainWindow(QMainWindow):
         self.current_tab = new_tab
 
     def about_vial(self):
-        title = "关于 Vial"
-        text = 'Vial {}<br><br>Python {}<br>Qt {}<br><br>' \
-               'Licensed under the terms of the<br>GNU General Public License (version 2 or later)<br><br>' \
-               '<a href="https://get.vial.today/">https://get.vial.today/</a>' \
+        title = "20260421旗舰版"
+        text = 'Vial版本 {}<br><br>Python版本 {}<br>Qt版本 {}<br><br>' \
+               '旗舰版本属于Vial-GUI项目代码级中文更新版<br><br>' \
+               '(定制固件版，非官方通用) 作者：matrixlzy' \
                .format(qApp.applicationVersion(),
                        platform.python_version(), QT_VERSION_STR)
 

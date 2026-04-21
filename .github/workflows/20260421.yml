@@ -100,5 +100,5 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-        name: vial-win20260421-installer
+        name: vial-win-20260421-installer
         path: target\VialSetup.exe
