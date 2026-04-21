@@ -68,7 +68,7 @@ def hid_send(dev, msg, retries=1):
 
 
 def is_rawhid(desc, quiet):
-    if desc["usage_page"] != 0xFF60 or desc["usage"] != 0x61:
+    if desc["usage_page"] != 0xFF88 or desc["usage"] != 0x88:
         if not quiet:
             logging.warning("is_rawhid: {} does not match - usage_page={:04X} usage={:02X}".format(
                 desc["path"], desc["usage_page"], desc["usage"]))
