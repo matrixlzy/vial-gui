@@ -1,4 +1,4 @@
-name: CI
+name: 20260421
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
@@ -100,5 +100,5 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-        name: vial-win-installer
+        name: vial-win20260421-installer
         path: target\VialSetup.exe
