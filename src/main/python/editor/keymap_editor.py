@@ -32,7 +32,7 @@ class KeymapEditor(BasicEditor):
 
         self.layout_layers = QHBoxLayout()
         self.layout_size = QVBoxLayout()
-        layer_label = QLabel(tr("KeymapEditor", "层"))
+        layer_label = QLabel(tr("KeymapEditor", "键层"))
 
         layout_labels_container = QHBoxLayout()
         layout_labels_container.addWidget(layer_label)
