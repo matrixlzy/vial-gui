@@ -337,9 +337,9 @@ KEYCODES_LAYERS = []
 RESET_KEYCODE = "QK_BOOT"
 
 KEYCODES_BOOT = [
-    K("QK_BOOT", "Boot-\nloader", "Put the keyboard into bootloader mode for flashing", alias=["RESET"]),
-    K("QK_REBOOT", "Reboot", "Reboots the keyboard. Does not load the bootloader"),
-    K("QK_CLEAR_EEPROM", "Clear\nEEPROM", "Reinitializes the keyboard's EEPROM (persistent memory)", alias=["EE_CLR"]),
+    K("QK_BOOT", "Boot-\nloader", "将键盘置于启动加载器模式,用于刷写固件", alias=["RESET"]),
+    K("QK_REBOOT", "Reboot", "重启键盘,不进入启动加载器模式"),
+    K("QK_CLEAR_EEPROM", "Clear\nEEPROM","重新初始化键盘的EEPROM(持久化内存)", alias=["EE_CLR"]),
 ]
 
 KEYCODES_MODIFIERS = [
@@ -599,22 +599,22 @@ KEYCODES_MEDIA = [
     K("KC_MFFD", "Next\nTrack\n(macOS)", "Next Track / Fast Forward (macOS)", alias=["KC_MEDIA_FAST_FORWARD"]),
     K("KC_EJCT", "Eject", "Eject (macOS)", alias=["KC_MEDIA_EJECT"]),
 
-    K("KC_MS_U", "Mouse\nUp", "Mouse Cursor Up", alias=["KC_MS_UP"]),
-    K("KC_MS_D", "Mouse\nDown", "Mouse Cursor Down", alias=["KC_MS_DOWN"]),
-    K("KC_MS_L", "Mouse\nLeft", "Mouse Cursor Left", alias=["KC_MS_LEFT"]),
-    K("KC_MS_R", "Mouse\nRight", "Mouse Cursor Right", alias=["KC_MS_RIGHT"]),
-    K("KC_BTN1", "Mouse\n1", "Mouse Button 1", alias=["KC_MS_BTN1"]),
-    K("KC_BTN2", "Mouse\n2", "Mouse Button 2", alias=["KC_MS_BTN2"]),
-    K("KC_BTN3", "Mouse\n3", "Mouse Button 3", alias=["KC_MS_BTN3"]),
-    K("KC_BTN4", "Mouse\n4", "Mouse Button 4", alias=["KC_MS_BTN4"]),
-    K("KC_BTN5", "Mouse\n5", "Mouse Button 5", alias=["KC_MS_BTN5"]),
+    K("KC_MS_U", "Mouse\nUp", "鼠标箭头上移", alias=["KC_MS_UP"]),
+    K("KC_MS_D", "Mouse\nDown", "鼠标箭头下移", alias=["KC_MS_DOWN"]),
+    K("KC_MS_L", "Mouse\nLeft", "鼠标箭头左移", alias=["KC_MS_LEFT"]),
+    K("KC_MS_R", "Mouse\nRight", "鼠标箭头右移", alias=["KC_MS_RIGHT"]),
+    K("KC_BTN1", "Mouse\n1", "鼠标左键", alias=["KC_MS_BTN1"]),
+    K("KC_BTN2", "Mouse\n2", "鼠标右键", alias=["KC_MS_BTN2"]),
+    K("KC_BTN3", "Mouse\n3", "鼠标中键", alias=["KC_MS_BTN3"]),
+    K("KC_BTN4", "Mouse\n4", "鼠标4键", alias=["KC_MS_BTN4"]),
+    K("KC_BTN5", "Mouse\n5", "鼠标5键", alias=["KC_MS_BTN5"]),
     K("KC_WH_U", "Mouse\nWheel\nUp", alias=["KC_MS_WH_UP"]),
     K("KC_WH_D", "Mouse\nWheel\nDown", alias=["KC_MS_WH_DOWN"]),
     K("KC_WH_L", "Mouse\nWheel\nLeft", alias=["KC_MS_WH_LEFT"]),
     K("KC_WH_R", "Mouse\nWheel\nRight", alias=["KC_MS_WH_RIGHT"]),
-    K("KC_ACL0", "Mouse\nAccel\n0", "Set mouse acceleration to 0", alias=["KC_MS_ACCEL0"]),
-    K("KC_ACL1", "Mouse\nAccel\n1", "Set mouse acceleration to 1", alias=["KC_MS_ACCEL1"]),
-    K("KC_ACL2", "Mouse\nAccel\n2", "Set mouse acceleration to 2", alias=["KC_MS_ACCEL2"]),
+    K("KC_ACL0", "Mouse\nAccel\n0", "设置鼠标加速到 0", alias=["KC_MS_ACCEL0"]),
+    K("KC_ACL1", "Mouse\nAccel\n1", "设置鼠标加速到 1", alias=["KC_MS_ACCEL1"]),
+    K("KC_ACL2", "Mouse\nAccel\n2", "设置鼠标加速到 2", alias=["KC_MS_ACCEL2"]),
 
     K("KC_LCAP", "Locking\nCaps", "Locking Caps Lock", alias=["KC_LOCKING_CAPS"]),
     K("KC_LNUM", "Locking\nNum", "Locking Num Lock", alias=["KC_LOCKING_NUM"]),
