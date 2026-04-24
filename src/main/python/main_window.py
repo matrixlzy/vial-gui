@@ -438,10 +438,10 @@ class MainWindow(QMainWindow):
         self.current_tab = new_tab
 
     def about_vial(self):
-        title = "关于 Vial"
-        text = 'Vial {}<br><br>Python {}<br>Qt {}<br><br>' \
-               'Licensed under the terms of the<br>GNU General Public License (version 2 or later)<br><br>' \
-               '<a href="https://get.vial.today/">https://get.vial.today/</a>' \
+        title = "20260424中文版"
+        text = 'Vial版本 {}<br>作者：matrixlzy<br>Python版本 {}<br>Qt版本 {}<br>' \
+               '版本说明：<br>Vial-GUI源代码级汉化版<br>' \
+               '官方通用版' \
                .format(qApp.applicationVersion(),
                        platform.python_version(), QT_VERSION_STR)
 
