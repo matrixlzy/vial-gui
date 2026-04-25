@@ -199,28 +199,28 @@ class KeyOverrideEntryUI(QObject):
         self.w2 = make_scrollable(l)
 
     def populate_container(self):
-        self.container.addWidget(QLabel("Enable"), 0, 0)
+        self.container.addWidget(QLabel("启用"), 0, 0)
         self.container.addWidget(self.enable_chk, 0, 1)
 
-        self.container.addWidget(QLabel("Enable on layers"), 1, 0)
+        self.container.addWidget(QLabel("启用层"), 1, 0)
         self.container.addWidget(self.layers, 1, 1)
 
-        self.container.addWidget(QLabel("Trigger"), 2, 0)
+        self.container.addWidget(QLabel("触发"), 2, 0)
         self.container.addWidget(self.trigger_key, 2, 1)
 
-        self.container.addWidget(QLabel("Trigger mods"), 3, 0)
+        self.container.addWidget(QLabel("触发修饰"), 3, 0)
         self.container.addWidget(self.trigger_mods, 3, 1)
 
-        self.container.addWidget(QLabel("Negative mods"), 4, 0)
+        self.container.addWidget(QLabel("否定修饰"), 4, 0)
         self.container.addWidget(self.negative_mods, 4, 1)
 
-        self.container.addWidget(QLabel("Suppressed mods"), 5, 0)
+        self.container.addWidget(QLabel("抑制修饰"), 5, 0)
         self.container.addWidget(self.suppressed_mods, 5, 1)
 
-        self.container.addWidget(QLabel("Replacement"), 6, 0)
+        self.container.addWidget(QLabel("替换"), 6, 0)
         self.container.addWidget(self.key_replacement, 6, 1)
 
-        self.container.addWidget(QLabel("Options"), 7, 0)
+        self.container.addWidget(QLabel("选项"), 7, 0)
         self.container.addWidget(self.options, 7, 1)
 
     def widget(self):
