@@ -72,13 +72,12 @@ class OptionsUI(QWidget):
 
         container = QVBoxLayout()
 
-        self.opt_activation_trigger_down = CheckBoxNoPadding("Activate when the trigger key is pressed down")
-        self.opt_activation_required_mod_down = CheckBoxNoPadding("Activate when a necessary modifier is pressed down")
-        self.opt_activation_negative_mod_up = CheckBoxNoPadding("Activate when a negative modifier is released")
-        self.opt_one_mod = CheckBoxNoPadding("Activate on one modifier")
-        self.opt_no_reregister_trigger = CheckBoxNoPadding("Don't deactivate when another key is pressed down")
-        self.opt_no_unregister_on_other_key_down = CheckBoxNoPadding(
-            "Don't register the trigger key again after the override is deactivated")
+        self.opt_activation_trigger_down = CheckBoxNoPadding("当触发键按下时激活")
+        self.opt_activation_required_mod_down = CheckBoxNoPadding("当所需修饰键按下时激活")
+        self.opt_activation_negative_mod_up = CheckBoxNoPadding("当否定修饰键释放时激活")
+        self.opt_one_mod = CheckBoxNoPadding("单修饰键激活")
+        self.opt_no_reregister_trigger = CheckBoxNoPadding("按下其他键时不取消激活")
+        self.opt_no_unregister_on_other_key_down = CheckBoxNoPadding("覆盖停用后不再重新注册触发键")
 
         for w in [self.opt_activation_trigger_down, self.opt_activation_required_mod_down,
                   self.opt_activation_negative_mod_up, self.opt_one_mod, self.opt_no_reregister_trigger,
