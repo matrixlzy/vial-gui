@@ -72,9 +72,9 @@ class OptionsUI(QWidget):
 
         container = QVBoxLayout()
 
-        self.opt_default_to_this_alt_key = CheckBoxNoPadding("Default to this alt key")
-        self.opt_bidirectional = CheckBoxNoPadding("Bidirectional")
-        self.opt_ignore_mod_handedness = CheckBoxNoPadding("Ignore mod handedness")
+        self.opt_default_to_this_alt_key = CheckBoxNoPadding("默认启用alt")
+        self.opt_bidirectional = CheckBoxNoPadding("双向")
+        self.opt_ignore_mod_handedness = CheckBoxNoPadding("忽略左右修饰")
 
         for w in [self.opt_default_to_this_alt_key, self.opt_bidirectional,
                   self.opt_ignore_mod_handedness]:
