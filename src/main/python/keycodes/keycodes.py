@@ -900,7 +900,7 @@ def recreate_keyboard_keycodes(keyboard):
 
     for x in range(min(layers, 16)):
         KEYCODES_LAYERS.append(Keycode("LT{}(kc)".format(x), "LT {}\n(kc)".format(x),
-                                       "kc on tap, switch to layer {} while held".format(x), masked=True))
+                                       "持续按住切换{}层,单击KC触发".format(x), masked=True))
 
     KEYCODES_MACRO.clear()
     for x in range(keyboard.macro_count):
