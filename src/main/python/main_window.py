@@ -438,9 +438,9 @@ class MainWindow(QMainWindow):
         self.current_tab = new_tab
 
     def about_vial(self):
-        title = "20260428中文版"
+        title = "20260502中文版"
         text = 'Vial版本 {}<br>作者：matrixlzy<br>Python版本 {}<br>Qt版本 {}<br>' \
-               '版本说明：<br>Vial-GUI源代码级汉化<br>' \
+               '版本说明：<br>Vial-GUI源代码级汉化版<br>' \
                .format(qApp.applicationVersion(),
                        platform.python_version(), QT_VERSION_STR)
 
